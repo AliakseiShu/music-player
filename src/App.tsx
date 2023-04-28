@@ -4,13 +4,9 @@ import { AiOutlineSound } from "@react-icons/all-files/ai/AiOutlineSound";
 import { BsArrowRepeat } from "@react-icons/all-files/bs/BsArrowRepeat";
 import { BsShuffle } from "@react-icons/all-files/bs/BsShuffle";
 import beat1 from "./assets/images/beat1.jpg"
-import { AiOutlineArrowLeft } from "@react-icons/all-files/ai/AiOutlineArrowLeft";
-import { IoMdArrowDropleft } from "@react-icons/all-files/io/IoMdArrowDropleft";
 import { IoMdArrowDropright } from "@react-icons/all-files/io/IoMdArrowDropright";
-import { CgArrowLeftO } from "@react-icons/all-files/cg/CgArrowLeftO";
 import { MdKeyboardArrowLeft } from "@react-icons/all-files/md/MdKeyboardArrowLeft";
 import { AiOutlinePause } from "@react-icons/all-files/ai/AiOutlinePause";
-import { MdKeyboardArrowRight } from "@react-icons/all-files/md/MdKeyboardArrowRight";
 
 function App() {
 
@@ -98,5 +94,4 @@ function App() {
     </div>
   )
 }
-
 export default App
