@@ -19,13 +19,13 @@ function App() {
             <div className="handling-sound" title="Volume">
               <AiOutlineSound className="icon-sound"/>
               <div className="volume">
-                <input min="0"
-                       min="1"
-                       step="0.1"
-                       type="range"
-                       value="0.5"
-                       name="volume"
-                       className="controls"/>
+                <input
+                  readOnly
+                  step="0.1"
+                  type="range"
+                  value="0.5"
+                  name="volume"
+                  className="controls"/>
               </div>
             </div>
             <div className="handling-repeat" title="Repeat">
@@ -94,4 +94,5 @@ function App() {
     </div>
   )
 }
+
 export default App
